@@ -1,0 +1,31 @@
+* {
+
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.popular {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ef6565;
+}
+
+
+.color
+{
+  background-color: #ff0000;
+}
