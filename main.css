@@ -1,5 +1,4 @@
 * {
-
   font-family: sans-serif;
   box-sizing: border-box;
 }
@@ -16,16 +15,108 @@
   gap: 20px;
 }
 
+/* .popular .card
+{
+
+
+} */
+
 .card {
+  text-decoration: none;
+  position: relative;
   width: 100%;
   max-width: 240px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #ef6565;
+  color: black;
 }
 
+.card__img {
+  border-radius: 24px;
+}
 
-.color
-{
+.card__title {
+  font-weight: 500;
+  height: 48px;
+  line-height: 24px;
+}
+
+.color {
   background-color: #ff0000;
+}
+
+.like {
+  position: absolute;
+  top: 24px;
+  right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+.like img {
+  width: 24px;
+  height: 24px;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.buy img {
+  width: 24px;
+  height: 24px;
+}
+
+.swiper-one {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+}
+
+.swippers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.swiper-pagination
+{
+  bottom: -40px;
+}
+
+.swiper1 {
+  width: 1100px;
+  margin-right: 20px;
+}
+.swiper2 {
+  width: 300px;
+
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.swiper-wrapper
+{
+  max-width: 240px;
+}
+
+.tovar{
+  padding: 24px;
+  padding-bottom: 0;
 }
